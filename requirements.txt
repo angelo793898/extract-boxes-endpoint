@@ -1,0 +1,20 @@
+# FastAPI Vision Board Box Extractor - Requirements for Render Deployment
+# Generated from venv analysis on 2025-07-29
+
+# FastAPI and ASGI server
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+
+# File handling and multipart data
+python-multipart==0.0.20
+
+# Computer Vision and Image Processing
+opencv-python-headless==4.10.0.84
+numpy==2.2.6
+Pillow==11.3.0
+
+# Data validation and serialization
+pydantic==2.11.7
+
+# Additional dependencies for base64 and UUID (usually included in Python stdlib)
+# These are typically not needed in requirements.txt but adding for completeness
